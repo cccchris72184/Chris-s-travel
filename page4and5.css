@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color:black;
+}
+.habibi-regular {
+    font-family: "Habibi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sorts-mill-goudy-regular {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sorts-mill-goudy-regular-italic {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.highlight {
+    font-weight: 700;
+    font-size: 4rem;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.logo {
+    height: 80px; 
+    width: 80px; 
+    border-radius: 100%; 
+    border: 1px black solid;
+    position: relative;
+}
+
+.logo-sentance {
+    /* line-height: 80px; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* white-space: nowrap; */
+}
+
+.header {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;    
+    height: auto;
+    text-align: center;
+    position: relative;
+    background-color:#6F00FF;
+    padding-top: 1rem;
+    padding-right: 0.4rem;
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+}
+
+.navbar {
+    background-color: lightgrey;
+    border: 5px black solid;
+    border-radius: 2rem;
+    margin: 1rem 0.8rem;
+    padding: 0.4rem;
+}
+
+.navbar ul {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar ul li {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.8rem;
+    padding: 1rem;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0.4rem;
+    padding:0.4rem;
+}
+
+.video {
+    margin:1rem;
+}
