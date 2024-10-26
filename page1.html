@@ -120,7 +120,7 @@
             }
 
 
-            @media (min-width: 1024px) {
+            @media (max-width: 2560px) {
                 .class1 {
                     display: flex;
                     width: 25%;
@@ -128,7 +128,7 @@
                 }
             }
             
-            @media (max-width: 1024px) {
+            @media (max-width: 1440px) {
                 .class1 {
                     width: 50%;
                     padding: 1rem;
@@ -142,32 +142,34 @@
                     padding: 1rem;
                     display: flex;
                 }
+            }
 
                 .wrapper {
                     flex-wrap: wrap;
                     flex-direction: column;
                 }
-                }
+                
 
         </style>
     </head>
 
 <body>
     <div class="nevagation-bar" style = 'display:flex; align-items:center; justify-content: space-between; background-color:#0077c0; width: 100%; 
-        height: auto; direction: rtl; flex-wrap: wrap; position: sticky;'>
-        <ul>
-            <li><a href="#" class = 'habibi-regular'>Home</a></li>
-            <li><a href="#" class = 'habibi-regular'>Germany</a></li>
-            <li><a href="#" class = 'habibi-regular'>Turkey</a></li>
-            <li><a href="#" class = 'habibi-regular'>Egypt</a></li>
-            <li><a href="#" class = 'habibi-regular'>Greece</a></li>
-        </ul>
+        height: auto; direction: ltr; flex-wrap: wrap; position: relative;'>
         <div class = 'header-top'><header class = 'header-1 habibi-regular'>Chris's traveling blog </header></div>
+        <ul style="position: relative; right: 0;">
+            <li><a href="#" class = 'habibi-regular'>Home</a></li>
+            <li><a href="page2.html" class = 'habibi-regular'>Germany</a></li>
+            <li><a href="page3.html" class = 'habibi-regular'>Turkey</a></li>
+            <li><a href="page4.html" class = 'habibi-regular'>Egypt</a></li>
+            <li><a href="page5.html" class = 'habibi-regular'>Greece</a></li>
+            <li><input type="text" name = 'search' style = 'width: 10rem; height: 2.5rem;'/></li>
+        </ul>
     </div>
 
     <div class = 'wrapper'>
         <div class = 'row'>
-            <div class = 'col-12 col-md-6 image-container'><center><img src = 'photo_of_young_man_traveling_and_taking_pics.png' alt = 'photo'></center></div>
+            <div class = 'col-12 col-md-6 image-container'><center><img src = 'photos/myphoto.png' alt = 'photo'></center></div>
             <div class = 'col-12 col-md-6'>
                 <p class = 'sorts-mill-goudy-regular' style = 'font-size: 1.4rem; line-height: 1.8rem; padding: 1rem;'><span style = 'font-size: 1.6rem; font-weight: 700;'>Hello! I'm Chris</span>, a passionate travel blogger with a love for exploring the world and sharing my adventures. From the bustling streets of 
                     Tokyo to the serene beaches of Bali, I've made it my mission to discover hidden gems and unique experiences that each destination has to 
@@ -185,52 +187,52 @@
         <div class = 'row'>
             <div class="class1">
                 <div class="card">
-                    <img src="german_attractions.jpg" class="card-img-top" alt="german">
+                    <img src="photos/germany.jpg" class="card-img-top" alt="german">
                     <div class="card-body">
                         <h5 class="card-title"><B>Germany</B></h5>
                         <p class="card-text habibi-regular">Germany offers diverse landscapes, rich history, efficient public transport, vibrant cities, 
                             charming villages, delicious cuisine, cultural festivals, and stunning architecture.
                         </p>
-                        <a href="#" class="btn btn-primary">Visit Germany</a>
+                        <a href="page2.html" class="btn btn-primary">Visit Germany</a>
                     </div>
                 </div>    
             </div>
 
             <div class="class1">
                 <div class="card">
-                    <img src="turkey_istanbual.webp" class="card-img-top" alt="turkey">
+                    <img src="photos/turkey_istanbual.webp" class="card-img-top" alt="turkey">
                     <div class="card-body">
                         <h5 class="card-title"><B>Turkey</B></h5>
                         <p class="card-text habibi-regular">Turkey boasts stunning landscapes, rich history, vibrant culture, delicious cuisine, 
                             hospitable locals, beautiful beaches, ancient ruins, and bustling bazaars.
                         </p>
-                        <a href="#" class="btn btn-primary">Visit Turkey</a>
+                        <a href="page3.html" class="btn btn-primary">Visit Turkey</a>
                     </div>
                 </div>    
             </div>
 
             <div class="class1">
                 <div class="card">
-                    <img src="egypt_pyramid.jpg" class="card-img-top" alt="egypt">
+                    <img src="photos/egypt_pyramid.jpg" class="card-img-top" alt="egypt">
                     <div class="card-body">
                         <h5 class="card-title"><B>Egypt</B></h5>
                         <p class="card-text habibi-regular">Egypt features breathtaking pyramids, ancient temples, vibrant markets, rich history,
                              diverse landscapes, warm hospitality, stunning Nile cruises, and delicious cuisine.
                         </p>
-                        <a href="#" class="btn btn-primary">Visit Egypt</a>
+                        <a href="page4.html" class="btn btn-primary">Visit Egypt</a>
                     </div>
                 </div>    
             </div>
 
             <div class="class1">
                 <div class="card">
-                    <img src="greece_attractions.jpeg" class="card-img-top" alt="greece">
+                    <img src="photos/greece.jpeg" class="card-img-top" alt="greece">
                     <div class="card-body">
                         <h5 class="card-title"><B>Greece</B></h5>
                         <p class="card-text habibi-regular">Greece offers stunning islands, ancient ruins, crystal-clear waters, delicious cuisine,
-                             rich history, vibrant culture, charming villages, and warm hospitality.<br/><br/>
+                             rich history, vibrant culture, charming villages, and warm hospitality.<br/>
                         </p>
-                        <a href="#" class="btn btn-primary">Visit Greece</a>
+                        <a href="page5.html" class="btn btn-primary">Visit Greece</a>
                     </div>
                 </div>    
             </div>

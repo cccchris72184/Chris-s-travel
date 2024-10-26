@@ -8,6 +8,7 @@
 a {
     color:black;
 }
+
 .habibi-regular {
     font-family: "Habibi", serif;
     font-weight: 400;
@@ -101,6 +102,8 @@ a {
     align-items: center;
     margin:0.4rem;
     padding:0.4rem;
+    font-size: 1.2rem;
+    width: 80%;
 }
 
 .video {
